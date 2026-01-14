@@ -8,22 +8,45 @@
 
 </head>
 <style>
-  
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+
+    body {
+     background-image: url('https://i.pinimg.com/1200x/23/14/24/231424863f959b5a5fc6b4b4d6da15d6.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+     h5 {
+        text-align: center
+    }
+
+     h6 {
+        text-align: center
+    }
 </style>
+
 <body>
-    <div class="container bg-danger">
+    <div class="container bg-success">
         <h1 class="text-center text-light fst-italic" id="head1"></h1>
     </div>
     <br>
-    <h3 style="text-align: center; fst-italic">Welcome to the digital basic calculator website where you can use a calculator digitally for school, work, and other everyday tasks!</h1>
+    <h3 class="text-light fst-italic">Welcome to the digital basic calculator website where you can use a calculator digitally for school, work, and other everyday tasks!</h1>
 
     <br>
     
-    <h5 style="text-align: center; fst-italic"> Here's the first question:</h5>
+    <h5 class="text-light fst-italic"> Here's the first question:</h5>
 
     <br>
 
-    <h6 style="text-align: center; fst-italic">What is 13 + 87?</p>
+    <h6 class="text-light fst-italic">What is 13 + 87?</p>
 
     <br>
 <!--
@@ -32,7 +55,7 @@
     <button type="button" class="btn btn-success" onclick="document.write(num1);">Solve</button>
 -->
     <div class="text-center">
-    <button type="button" class="btn btn-danger" onclick="document.getElementById('result').innerHTML = num1;">Result</button>
+    <button type="button" class="btn btn-success" onclick="document.getElementById('result').innerHTML = num1;">Result</button>
 </div>
     <br>
 
